@@ -1,5 +1,12 @@
-### Starter Project for the Material UI playlist
+# Web Application to take notes
 
-Download the code & run **npm install** to install dependencies before starting the app.
+This application will let users to add new notes, delete the existing notes or edit them if they want.
 
-You'll also need to install Material UI as a dependency. To do this run **npm install @material-ui/core**
+## Technologies that are used here
+
+- The project was originally created using [create-react-app](https://create-react-app.dev/)
+- [React Router](https://v5.reactrouter.com/web/guides/quick-start)
+- [Material ui](https://mui.com/)
+- [date-fns](https://date-fns.org/) for formatting dates
+- [react-masonry-css](https://www.npmjs.com/package/react-masonry-css) for layouting the page
+
