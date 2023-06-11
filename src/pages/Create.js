@@ -43,10 +43,10 @@ export default function Create() {
     }
 
     if (title && details) {
-      fetch(" http://localhost:8000/notes", {
+      fetch(".netlify/functions/notes", {
         method: 'POST',
         headers: {"Content-type": "application/json"},
-        body: JSON.stringify({ title, details,  category })
+        body: JSON.stringify({ title, details,  category, id: title })
       }).then(() => history.push('/'))
     }
   }
